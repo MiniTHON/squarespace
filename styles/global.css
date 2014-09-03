@@ -88,7 +88,7 @@
 
 //tweak: { type: 'font', title: 'Site Tagline', target: '#banner-area-wrapper, .site-subtitle, .logo-subtitle, .page-description', category: 'Header' }
 .tagline-font {
-  font-family: Muli, Helvetica, Arial, sans-serif;
+  font-family: Arial, 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
@@ -142,7 +142,7 @@
 
 //tweak: { type: 'font', title: 'Navigation', target: '#navigation-top, #navigation-bottom', category: 'Navigation' }
 .nav-font {
-  font-family: Muli, Helvetica, Arial, sans-serif;
+  font-family: Arial, 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -189,7 +189,7 @@
 
 //tweak: { type: 'font', title: 'Heading 1', target: 'h1:not(.page-title)', loadAllVariants: true, category: 'Main Content' }
 .heading1 {
-  font-family: Muli, Helvetica, Arial, sans-serif;
+  font-family: Arial, 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 30px;
   font-weight: normal;
   font-style: normal;
@@ -204,7 +204,7 @@
 
 //tweak: { type: 'font', title: 'Heading 2', target: 'h2', loadAllVariants: true, category: 'Main Content' }
 .heading2 {
-  font-family: Muli, Helvetica, Arial, sans-serif;
+  font-family: Arial, 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 21px;
   font-weight: normal;
   font-style: normal;
@@ -219,7 +219,7 @@
 
 //tweak: { type: 'font', title: 'Heading 3', target: 'h3', loadAllVariants: true, category: 'Main Content' }
 .heading3 {
-  font-family: Muli, Helvetica, Arial, sans-serif;
+  font-family: Arial, 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 17px;
   font-weight: normal;
   font-style: normal;
@@ -234,7 +234,7 @@
 
 //tweak: { type: 'font', title: 'Body Text', target: '#page-body', loadAllVariants: true, category: 'Main Content' }
 .body-font {
-  font-family: Muli, Helvetica, Arial, sans-serif;
+  font-family: Arial, 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -285,7 +285,7 @@
 
 //tweak: { type: 'font', title: 'Site Description', target: '#page-header, .site-description', showOnlyWhenPresent: '.site-description-in-sidebar', loadAllVariants: true, category: 'Sidebar' }
 .site-desc-font {
-  font-family: Muli, Helvetica, Arial, sans-serif;
+  font-family: Arial, 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: normal;
   font-style: normal;
@@ -302,7 +302,7 @@
 
 //tweak: { type: 'font', title: 'Footer Text', target: '#page-footer', loadAllVariants: true, category: 'Footer' }
 .footer-font {
-  font-family: Muli, Helvetica, Arial, sans-serif;
+  font-family: Arial, 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: normal;
   font-style: normal;
@@ -333,7 +333,7 @@
 
 //tweak: { type: 'font', title: 'Meta Text', target: '.hentry .post, .article-meta', category: 'Blog' }
 .meta-font {
-  font-family: Muli, Helvetica, Arial, sans-serif;
+  font-family: Arial, 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 11px;
   font-weight: normal;
   font-style: normal;
@@ -355,7 +355,7 @@
 
 //tweak: { type: 'font', title: 'Blog Pagination', target: 'nav.pagination', category: 'Blog' }
 .pagination-font {
-  font-family: Muli, Helvetica, Arial, sans-serif;
+  font-family: Arial, 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -815,6 +815,13 @@ span.delimiter {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 18px;
+  line-height: 32px;
 }
 
 #content-wrapper {
@@ -1811,6 +1818,9 @@ div[data-src="v5"] img { max-width: 100%; }
 
 // FOOTER
 #page-footer-wrapper {
-  background: #363636;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #4a4a4a;
   color: white;
+  border: none;
 }

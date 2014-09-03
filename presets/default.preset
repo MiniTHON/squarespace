@@ -123,7 +123,7 @@
     "heading1-text-transform" : "none",
     "heading3-text-transform" : "uppercase",
     "sidebarTextSize" : "0.85",
-    "site-desc-font" : "{font-family:Muli, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.8em;text-transform:none;letter-spacing:0px;font-weight:normal;font-style:normal}",
+    "site-desc-font" : "{font-family:Arial, 'Open Sans', Helvetica, Arial, sans-serif;font-size:12px;line-height:1.8em;text-transform:none;letter-spacing:0px;font-weight:normal;font-style:normal}",
     "show-product-price" : "true",
     "siteWidth" : "1140px",
     "event-date-label-time" : "true",
@@ -158,7 +158,7 @@
     "bg-image-background-attachment" : "scroll",
     "tagline-font-font-weight" : "normal",
     "heading2-font-style" : "normal",
-    "site-desc-font-font-family" : "Muli, Helvetica, Arial, sans-serif",
+    "site-desc-font-font-family" : "Arial, 'Open Sans', Helvetica, Arial, sans-serif",
     "gallery-info-overlay" : "Always Show",
     "meta-font-font-family" : "\"Open Sans\"",
     "event-thumbnails" : "true",
@@ -219,5 +219,5 @@
     "body-font" : "{font-family:\"Palatino Linotype\",\"Book Antiqua\",\"Palatino\",\"serif\";font-size:14px;line-height:1.8em;letter-spacing:0px;font-weight:normal;font-style:normal}",
     "social-icon-placement" : "Bottom Only"
   },
-  "webFonts" : [ "Allerta+Stencil:400", "Open+Sans:300,600,300italic,400,400italic,600italic,700,700italic,800,800italic", "Muli:300,300italic,400,400italic", "Playfair+Display:400italic" ]
+  "webFonts" : [ "Allerta+Stencil:400", "Open+Sans:300,600,300italic,400,400italic,600italic,700,700italic,800,800italic", "Arial, 'Open Sans':300,300italic,400,400italic", "Playfair+Display:400italic" ]
 }
