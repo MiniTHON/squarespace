@@ -1800,3 +1800,17 @@ div[data-src="v5"] img { max-width: 100%; }
   background: #e8e8e8;
   border: none;
 }
+
+// SPONSORS FOOTER
+#page-sponsor-footer-wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #4a4a4a;
+  color: white;
+}
+
+// FOOTER
+#page-footer-wrapper {
+  background: #363636;
+  color: white;
+}

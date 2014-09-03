@@ -1,3 +1,10 @@
+		    <div id="page-sponsor-footer-wrapper">
+		      <div id="page-footer">
+		        <squarespace:block-field id="sponsor-footer-blocks" columns="12" label="Sponsor Footer Content" />
+		      </div>
+		    </div><!-- page-sponsor-footer-wrapper -->
+		  
+
 		    <div id="page-footer-wrapper">
 		      <div id="page-footer">
 		        {.section website}
