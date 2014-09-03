@@ -69,6 +69,7 @@
 				        {.or}
 					      <div id="site-title-wrapper" data-content-field="site-title">
 				          <h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+  					    	<p id="site-tagline" class="site-subtitle">1 Month, 3 Days, 2 Hours, 8 Minutes, 4 Seconds til</p>
 				          {.section siteTagLine}<p id="site-tagline" class="site-subtitle">{siteTagLine}</p>{.end}
 				        </div>
 				        {.end}

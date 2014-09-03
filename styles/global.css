@@ -92,8 +92,8 @@
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
-  letter-spacing: 3px;
-  text-transform: uppercase;
+  /* letter-spacing: 3px; */
+  /* text-transform: uppercase; */
   line-height: 1.8em;
 }
 
@@ -1794,3 +1794,10 @@ body.no-scroll { width: 100%; }
 img[data-src]:not([src]) { visibility: hidden; }
 
 div[data-src="v5"] img { max-width: 100%; }
+
+// OVERRIDES
+#navigation-top, #navigation-bottom, #canvas-wrapper {
+  background: #e8e8e8;
+  border: none;
+}
+}
