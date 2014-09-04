@@ -286,7 +286,7 @@
 //tweak: { type: 'font', title: 'Site Description', target: '#page-header, .site-description', showOnlyWhenPresent: '.site-description-in-sidebar', loadAllVariants: true, category: 'Sidebar' }
 .site-desc-font {
   font-family: Arial, 'Open Sans', Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: normal;
   font-style: normal;
   letter-spacing: 0px;
@@ -303,7 +303,7 @@
 //tweak: { type: 'font', title: 'Footer Text', target: '#page-footer', loadAllVariants: true, category: 'Footer' }
 .footer-font {
   font-family: Arial, 'Open Sans', Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: normal;
   font-style: normal;
   letter-spacing: 0px;
