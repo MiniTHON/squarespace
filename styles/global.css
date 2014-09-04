@@ -52,7 +52,7 @@
 
 //tweak: { type: 'font', title: 'Site Title', target: '#page-header, #site-title a', showOnlyWhenPresent: '.banner-content-site-title-logo-tagline', category: 'Header' }
 .site-title-font {
-  font-family: Lora, Georgia, Times, serif;
+  font-family: Arial, Lora, Georgia, Times, serif;
   font-size: 72px;
   font-weight: 400;
   font-style: normal;
@@ -70,7 +70,7 @@
 
 //tweak: { type: 'font', title: 'Page Title', target: '#page-header, #page-title a', category: 'Header' }
 .page-title-font {
-  font-family: Lora, Georgia, Times, serif;
+  font-family: Arial, Lora, Georgia, Times, serif;
   font-size: 55px;
   font-weight: 400;
   font-style: italic;
@@ -131,7 +131,7 @@
 
 //tweak: { type: 'font', title: 'Site Name', target: '.horizontal-navigation-bar, .horizontal-navigation-bar #site-title a', showOnlyWhenPresent: '.banner-content-page-title-description, .banner-content-empty', category: 'Navigation' }
 .site-name-font {
-  font-family: Lora, Georgia, Times, serif;
+  font-family: Arial, Lora, Georgia, Times, serif;
   font-size: 21px;
   font-weight: 400;
   font-style: italic;
@@ -1818,9 +1818,10 @@ div[data-src="v5"] img { max-width: 100%; }
 
 // FOOTER
 #page-footer-wrapper {
+  margin-top: 0px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #4a4a4a;
+  background-color: #363636;
   color: white;
   border: none;
 }
