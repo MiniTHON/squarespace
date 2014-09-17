@@ -1825,3 +1825,53 @@ div[data-src="v5"] img { max-width: 100%; }
   color: white;
   border: none;
 }
+
+// CUSTOM
+.page-body-wrapper .sqs-row {
+    display: block;
+    background: white;
+    margin-bottom: 30px;
+    padding: 30px 20px;
+    box-shadow: 0 0 10px gray;
+}
+
+#main-navigation a:link, #main-navigation a:visited {
+    color: white;
+    background: #2980b9;
+    padding: 30px 20px;
+    font-size: 16px;
+    box-shadow: inset 0 2px 1px rgba(255,255,255,.25), 0 0 6px gray;
+    text-transform: none;
+}
+
+#main-navigation a:last-child {
+    background: red;
+}
+
+.horizontal-navigation-bar {
+    margin-top: -60px;
+    margin-bottom: -60px;
+}
+
+.site-subtitle, .page-description p, .logo-subtitle {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    text-transform: none;
+}
+
+h1.page-title a {
+    font-size: 56px;
+}
+
+#page-thumb:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+}
+
