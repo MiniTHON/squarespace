@@ -1827,7 +1827,7 @@ div[data-src="v5"] img { max-width: 100%; }
 }
 
 // ROWS
-.page-body-wrapper .sqs-row {
+.main-content .sqs-layout > .sqs-row {
     display: block!important;
     background: white!important;
     margin-bottom: 30px!important;
