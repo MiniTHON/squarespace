@@ -1875,8 +1875,12 @@ div[data-src="v5"] img { max-width: 100%; }
 }
 
 .horizontal-navigation-bar {
-    margin-top: -60px;
-    margin-bottom: -60px;
+    margin-top: -60px!important;
+    margin-bottom: -60px!important;
+}
+
+#navigation-bottom {
+  background: none!important;
 }
 
 // PAGE TITLE and HEADER
@@ -1892,13 +1896,13 @@ h1.page-title a {
     font-size: 56px;
 }
 
-#page-thumb:after {
-    content: ' ';
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: rgba(0,0,0,.5);
-    width: 100%;
-    height: 100%;
+#banner-area:after {
+    content: ' '!important;
+    position: absolute!important;
+    top: 0!important;
+    left: 0!important;
+    background: rgba(0,0,0,.5)!important;
+    width: 100%!important;
+    height: 100%!important;
 }
 
