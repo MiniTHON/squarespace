@@ -1879,8 +1879,13 @@ div[data-src="v5"] img { max-width: 100%; }
     margin-bottom: -60px!important;
 }
 
-#navigation-top, #navigation-bottom, #canvas-wrapper {
+/* #canvas-wrapper {
   background: none!important;
+} */
+
+#site-title-wrapper {
+  position: relative;
+  z-index: 50;
 }
 
 // PAGE TITLE and HEADER
