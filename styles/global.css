@@ -1861,10 +1861,17 @@ div[data-src="v5"] img { max-width: 100%; }
     display: block;
 }
 
+.horizontal-navigation-bar nav.main-nav .folder .subnav ul a:hover {
+  background: black!important;
+}
+
 .horizontal-navigation-bar nav.main-nav .folder .subnav {
     background: white;
     box-shadow: 0 0 8px black;
     padding: 0px;
+    top: 70px;
+    left: -6px;
+    min-width: 100%;
 }
 
 .horizontal-navigation-bar {
