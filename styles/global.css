@@ -1911,3 +1911,17 @@ h1.page-title a {
     height: 100%!important;
 }
 
+
+
+// ADD RED DONATE BUTTON
+#main-navigation > ul > li.external-link > a {
+  transform: rotate(10deg) scale(1.25) translateX(10px) translateY(2px)!important;
+  background: red!important;
+  padding: 22px 15px!important;
+}
+
+// BLUE BACKGROUNDS
+#canvas-wrapper {
+  background: linear-gradient(#e8e8e8,rgb(216, 244, 255))!important;
+  background-attachment: fixed!important;
+}
