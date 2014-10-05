@@ -1936,6 +1936,8 @@ div[data-src="v5"] img { max-width: 100%; }
   -ms-transform: rotateX(0deg);
   -o-transform: rotateX(0deg);
   transform: rotateX(0deg);
+
+  margin-top: -5px;
 }
 @media screen and (max-width: 48em) {
   .main-example {
@@ -2098,5 +2100,9 @@ h1.page-title a {
 }
 
 #page-footer * {
+  color: white!important;
+}
+
+#page-footer #sqs-social a {
   color: white!important;
 }
