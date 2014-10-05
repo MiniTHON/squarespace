@@ -9,6 +9,7 @@
     <script src="//code.jquery.com/jquery.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
     <script src="//cdn.rawgit.com/hilios/jQuery.countdown/2.0.4/dist/jquery.countdown.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
   </head>
   {.if template.mobileStylesEnabled}{.or}<!-- Mobile Styles Are Disabled -->{.end}
   <body class="{squarespace.page-classes}{.section website}{.if logoImageUrl} has-logo-image{.or} no-logo-image{.end}{.end}" id="{squarespace.page-id}" ontouchstart="">
@@ -87,7 +88,7 @@
   					    		<script type="text/javascript">
   					    		  $(window).on('load', function() {
   					    		    var labels = ['weeks', 'days', 'hours', 'minutes', 'seconds'],
-  					    		      nextYear = '2014/11/21',
+  					    		      nextYear = '2014/11/21 10:00:00',
   					    		      template = _.template($('#main-example-template').html()),
   					    		      currDate = '00:00:00:00:00',
   					    		      nextDate = '00:00:00:00:00',
