@@ -71,10 +71,10 @@
 						      </a>
 					      </div>
 				        {.or}
-				        {.section siteTagLine}<p id="site-tagline" class="site-subtitle">{siteTagLine}</p>{.end}
 					      <div id="site-title-wrapper" data-content-field="site-title">
 				          <h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
-
+				          {.section siteTagLine}<p id="site-tagline" class="site-subtitle">{siteTagLine}</p>{.end}
+									<br>
   					    	<div id="site-tagline" class="main-example">
   					    		<div class="countdown-container" id="main-example"></div>
   					    		<script type="text/template" id="main-example-template">
