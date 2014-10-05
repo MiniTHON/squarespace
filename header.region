@@ -78,7 +78,7 @@
 				          $(window).on('load', function() {
 					          $(".countdown").countdown("2014/11/21 10:00:00", function(event) {
 					            $(this).text(
-					              event.strftime('%M months %D days %H hours %M minutes and %S seconds til')
+					              event.strftime('%D days %H hours %M minutes and %S seconds til')
 					            );
 					          });
 				          });</script>
