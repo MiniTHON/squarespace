@@ -71,6 +71,7 @@
 						      </a>
 					      </div>
 				        {.or}
+				        {.section siteTagLine}<p id="site-tagline" class="site-subtitle">{siteTagLine}</p>{.end}
 					      <div id="site-title-wrapper" data-content-field="site-title">
 				          <h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
 
@@ -153,7 +154,6 @@
   					    		</script>
   					    	</div>
 
-				          {.section siteTagLine}<p id="site-tagline" class="site-subtitle">{siteTagLine}</p>{.end}
 				        </div>
 				        {.end}
 				      {.end}

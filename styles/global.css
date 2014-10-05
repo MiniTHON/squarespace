@@ -1891,6 +1891,7 @@ div[data-src="v5"] img { max-width: 100%; }
   position: absolute;
   top: 95px;
   width: 100%;
+  color: white!important;
 }
 /* Animation start */
 .main-example .count.curr.top {
@@ -2055,7 +2056,8 @@ div[data-src="v5"] img { max-width: 100%; }
 }
 
 h1.page-title a {
-    font-size: 56px;
+    font-size: 72px;
+    margin-bottom: 10px;
 }
 
 #banner-area:after {
