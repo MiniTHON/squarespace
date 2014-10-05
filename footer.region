@@ -1,16 +1,22 @@
 		    <div id="page-sponsor-footer-wrapper">
 		      <div id="page-footer">
-		        <squarespace:block-field id="sponsor-footer-blocks" columns="12" label="Sponsor Footer Content" />
+		      	<h2>Thanks to our sponsors:</h2>
+		      	<div class="material-block">
+		      		<squarespace:block-field id="sponsor-footer-blocks" columns="12" label="Sponsor Footer Content" />
+		      	</div>
 		      </div>
 		    </div><!-- page-sponsor-footer-wrapper -->
 		  
 
 		    <div id="page-footer-wrapper">
 		      <div id="page-footer">
+		      <h2>Follow us everywhere:</h2>
 		        {.section website}
 		          {.if socialAccounts}
 		            <div id="sqs-social" data-content-field="connected-accounts">
 		              {.repeated section socialAccounts}{.if profileUrl}<a href="{profileUrl}" target="_blank" title="{screenname}" class="social-{serviceName}"></a>{.end}{.end}
+		              <a href="https://facebook.com/LMHSMiniTHON" target="_blank" title="LMHS Mini-THON" class="social-facebook"></a>
+		              <a href="https://instagram.com/LMHSMiniTHON" target="_blank" title="LMHS Mini-THON" class="social-instagram"></a>
 		            </div>
 		          {.end}
 		        {.end}

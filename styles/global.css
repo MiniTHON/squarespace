@@ -1827,7 +1827,7 @@ div[data-src="v5"] img { max-width: 100%; }
 }
 
 // ROWS
-.main-content .sqs-layout > .sqs-row {
+.main-content .sqs-layout > .sqs-row, .material-block {
     display: block!important;
     background: white!important;
     margin-bottom: 30px!important;
@@ -1924,4 +1924,12 @@ h1.page-title a {
 #canvas-wrapper {
   background: linear-gradient(#e8e8e8,rgb(216, 244, 255))!important;
   background-attachment: fixed!important;
+}
+
+.navigation-bottom {
+  position: absolute;
+}
+
+#main-navigation a:link, #main-navigation a:visited {
+  color: black!important;
 }
