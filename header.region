@@ -76,7 +76,7 @@
 				          <p id="site-tagline" class="site-subtitle countdown"></p>
 				          <script>
 				          $(window).on('load', function() {
-					          $(".countdown").countdown("2014/11/21 10:00:00", function(event) {
+					          $(".countdown").countdown("2015/11/20 10:00:00", function(event) {
 					            $(this).text(
 					              event.strftime('%D days %H hours %M minutes and %S seconds til')
 					            );
