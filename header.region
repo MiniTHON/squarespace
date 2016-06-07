@@ -73,7 +73,7 @@
 				        {.or}
 					      <div id="site-title-wrapper" data-content-field="site-title">
 				          <h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
-				          <p id="site-tagline" class="site-subtitle countdown"></p>
+				          <p id="site-tagline" class="site-subtitle countdown" style="display:none"></p>
 				          <script>
 				          $(window).on('load', function() {
 					          $(".countdown").countdown("2015/11/20 10:00:00", function(event) {
