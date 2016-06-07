@@ -81,7 +81,7 @@
                           $(this).css('display','none');
                         }
                         else {
-                          $(this).text( event.strftime('%D days %H hours %M minutes and %S seconds til'); );
+                          $(this).text( event.strftime('%D days %H hours %M minutes and %S seconds til') );
                         }
 					          });
 				          });
