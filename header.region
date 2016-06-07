@@ -77,7 +77,7 @@
 				          <script>
 				          $(window).on('load', function() {
 					          $(".countdown").countdown(thonDate, function(event) {
-					              if (event.strftime('%D days %H hours %M minutes and %S seconds til') == "0 days 0 hours 0 minutes and 0 seconds til") {
+					              if (event.strftime('%D days %H hours %M minutes and %S seconds til') == "00 days 00 hours 00 minutes and 00 seconds til") {
                           $(this).css('display','none');
                         }
                         else {
