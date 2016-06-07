@@ -76,12 +76,16 @@
 				          <p id="site-tagline" class="site-subtitle countdown" style="display:none"></p>
 				          <script>
 				          $(window).on('load', function() {
-					          $(".countdown").countdown("2015/11/20 10:00:00", function(event) {
-					            $(this).text(
-					              event.strftime('%D days %H hours %M minutes and %S seconds til')
-					            );
+					          $(".countdown").countdown(thonDate, function(event) {
+					              if (event.strftime('%D days %H hours %M minutes and %S seconds til') == "0 days 0 hours 0 minutes and 0 seconds til") {
+                          $(this).css('display','none');
+                        }
+                        else {
+                          $(this).text( event.strftime('%D days %H hours %M minutes and %S seconds til'); );
+                        }
 					          });
-				          });</script>
+				          });
+                  </script>
 				          {.section siteTagLine}<p id="site-tagline" class="site-subtitle">{siteTagLine}</p>{.end}
   					    	<div id="site-tagline" class="main-example">
   					    		<div class="countdown-container" id="main-example"></div>
